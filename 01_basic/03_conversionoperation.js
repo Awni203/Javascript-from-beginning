@@ -32,9 +32,9 @@ console.log(typeof(conversion))
 
 // ****************************************operations*****************************************
 
-let value= 34
-let negativevalue= -value
-console.log(value)
+let value1= 34
+let negativevalue= -value1
+console.log(value1)
 console.log(typeof (negativevalue))
 
 let value = 3
