@@ -40,3 +40,10 @@ const myfunction= function(){
 console.log(typeof myfunction)
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//***********************************Memory In Js***********************************************
+// stack (Primitives) => stored in stack memory (Copy of data is stored in stack memory)
+// heap (Non-Primitives) => stored in heap memory (Reference of data is stored in stack memory and actual data is stored in heap memory, and stack merely points to the reference of data in heap memory)
+
+ 
