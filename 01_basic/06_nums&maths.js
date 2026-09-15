@@ -30,7 +30,7 @@ const hundered = 1000000
  console.log(Math.max(10,5,6,8,9,100,200,500,81,42)) // It will return the maximum value from a list or array of numbers.
 
 console.log(Math.random()) // It will return a random number between 0 and 1.
-console.log((Math.random()*10)+1)
+console.log((Math.random()*10)+1)// to get the random value upper than 1 so added +1
 console.log(Math.floor(Math.random()*10)+1) // It will return a random number between 1 and 10.
 
 const min = 10
