@@ -7,7 +7,7 @@ const repocount = 100
 /*new method*/console.log(`Hello my name is ${name.toUpperCase()} and my repo count is ${repocount}`); // $ is used to access the variable or any other data type inside the string. This is called template literals or template strings. It is a new feature in ES6. It is used to create multi-line strings and to interpolate variables and expressions into strings.
 
 
-//const gameName = new String(`hello my name is ${name.toUpperCase()} and my repo count is ${repocount}`) // new method to declare a string Variable.
+// const gameName = new String(`hello my name is ${name.toUpperCase()} and my repo count is ${repocount}`) // new method to declare a string Variable.
 // console.log(gameName);
 
 
