@@ -39,8 +39,8 @@ jsuser.greetings = () => {
     console.log("Hello JS Users")
 }
 
-console.log(jsuser.greeting())
-console.log(jsuser.greetings())
+// console.log(jsuser.greeting())
+// console.log(jsuser.greetings())
 
 //*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
 // we will know that how to declare objects with the help of constructor and how to make an object singleton
@@ -71,9 +71,29 @@ const obj3 = {7:"a", 8:"b", 9:"c"}
 
 //const obj4 = Object.assign({}, obj1, obj2, obj3)// Object.assign() will merge one ot more than one object as array we take 
 const obj4 = {...obj1, ...obj2, ...obj3}// another method to merge objects using spread method(...O1, ....O2, ...On) mopst used method. 
-console.log(obj4)
+// console.log(obj4)
 
-console.log(Object.keys(tinderUser));// returns Keys of the Object in Array datatype.
-console.log(Object.values(tinderUser));// returns Values of the Object in Array datatype.
-console.log(Object.entries(tinderUser));// every key values will become an array in a array[['key': 'Values'], ['Key': 'Values']]
-console.log(tinderUser.hasOwnProperty('isloggedin'))// it findes that the value in the object exixts or not. (Objectname.hasOwnProperty('Key Of Object'))
+// console.log(Object.keys(tinderUser));// returns Keys of the Object in Array datatype.
+
+// console.log(Object.values(tinderUser));// returns Values of the Object in Array datatype.
+
+// console.log(Object.entries(tinderUser));// every key values will become an array in a array, >=[['key': 'Values'], ['Key': 'Values']].
+
+
+// console.log(tinderUser.hasOwnProperty('isloggedin'))// it findes that the value in the object exixts or not, (Objectname.hasOwnProperty('Key Of Object')).
+
+
+//*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+//we will learn about destructuring of objects
+
+
+const course = {
+    coursename: "js in Hindi",
+    courseprice: 999,
+    courseinstructor: "Awnish"
+}
+
+const {courseinstructor: instructor} = course // const { courseName } = course; >= Take courseName from the course object and create a variable called instructor. 
+// OR const { propertyName: newVariableName } = objectName; >= Take courseName from course and give it the new variable name name. 
+
+console.log(instructor)
