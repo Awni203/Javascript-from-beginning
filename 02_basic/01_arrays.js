@@ -32,3 +32,7 @@ console.log("A", myArr);
 const myn1 = myArr.slice(1, 4) //return a new array from the original array (myArr).(.slice (start, end)) end is not included start index is included, we gave index value in slice method.
 console.log(myn1)
 console.log("B", myArr)
+
+const myn2 = myArr.splice(1, 4)//
+console.log(myn2)
+console.log("C", myArr)
